@@ -13,16 +13,14 @@ struct RecipeTabView: View {
             RecipeFeatureView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "star.fill")
-                        Text("Featured")
+                        Image(systemName: "person.2")
                     }
                 }.tag(1)
             
             RecipeListView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "list.bullet")
-                        Text("List")
+                        Image(systemName: "gearshape.2")
                     }
                 }
         }.environmentObject(RecipeModel())
