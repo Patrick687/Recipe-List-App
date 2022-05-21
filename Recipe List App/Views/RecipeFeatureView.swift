@@ -13,7 +13,7 @@ struct RecipeFeatureView: View {
     
     var body: some View {
         
-        VStack {
+        VStack(alignment: .leading) {
             
             Text("Featured Recipes")
                 .bold()
